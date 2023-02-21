@@ -1,0 +1,73 @@
+import random
+
+temp = [1, 2 ,3]
+template = random.choice(temp)
+
+
+if(template == 1):
+  num1 = int(input("Input a number: "))
+  time = str(input("Input measure of time: "))
+  mode_of_trasport = str(input("Input mode of transportation: "))
+  adj1 = str(input("Input adjective: "))
+  adj2 = str(input("Input adjective again: "))
+  noun1 = str(input("Input noun (in plural form): "))
+  color = str(input("Input a color: "))
+  part_of_body = str(input("Input part of the body: "))
+  verb1 = str(input("Input a verb: "))
+  num2 = int(input("Input a number again: "))
+  noun2 = str(input("Input a noun: "))
+  noun3 = str(input("Input a noun again: "))
+  part_of_body2 = str(input("Input part of the body again: "))
+  verb2 = str(input("Input a verb: "))
+  noun4 = str(input("Input a noun: "))
+  adj3 = str(input("Input adjective: "))
+  silly = str(input("Input a silly word: "))
+  noun5 = str(input("Input a noun: "))
+  print(f" It was about {num1} {time} ago when I arrived at the hospital in a {mode_of_trasport}.The hospital is a/an {adj1} place, there are a lot of {adj2} {noun1} here. There are nurses here who have {color} {part_of_body}. If someone wants to come into my room I told them that they have to {verb1} first. I’ve decorated my room with {num2} {noun2}. Today I talked to a doctor and they were wearing a {noun3} on their {part_of_body2}. I heard that all doctors {verb2} {noun4} every day for breakfast. The most {adj3} thing about being in the hospital is the {silly} {noun5}!""")
+
+
+elif template == 2:
+  name = str(input("Input a person’s name: "))
+  noun1 = str(input("Input noun: "))
+  adj1 = str(input("Input adjective (feeling): "))
+  verb1 = str(input("Input a verb: "))
+  adj2 = str(input("Input adjective (feeling): "))
+  animal1 = str(input("Input an animal: "))
+  verb2 = str(input("Input a verb: "))
+  color1 = str(input("Input a color: "))
+  verb3 = str(input("Input a verb + ing: "))
+  adverb = str(input("Input a adverb + ly: "))
+  num1 = int(input("Input a number: "))
+  time = str(input("Input measure of time: "))
+  color2 = str(input("Input a color: "))
+  animal2 = str(input("Input an animal: "))
+  num2 = int(input("Input a number: "))
+  silly = str(input("Input a silly word: "))
+  noun2 = str(input("Input a noun: "))
+  print(f"This weekend I am going camping with {name}. I packed my lantern, sleeping bag, and {noun1}. I am so {adj1} to {verb1} in a tent. I am {adj2} we might see a(n) {animal1}, I hear they’re kind of dangerous. While we’re camping, we are going to hike, fish, and {verb2}. I have heard that the {color1} lake is great for {verb3}. Then we will {adverb} hike through the forest for {num1} {time}. If I see a {color2} {animal2} while hiking, I am going to bring it home as a pet! At night we will tell {num2} {silly} stories and roast {noun2} around the campfire!!""")
+
+elif template == 3:
+  persons_name = str(input("Input person's name: "))
+  castles_name = str(input("Input adjective: "))
+  color_for_animal = str(input("Input a color for animal: "))
+  animal = str(input("Input an animal: "))
+  place = str(input("Input place: "))
+  adj1 = str(input("Input adjective: "))
+  magical_creatures1 = str(input("Input an example of magical creature (in plural form): "))
+  adj2 = str(input("Input adjective: "))
+  magical_creatures2 = str(input("Input an example of magical creature (in plural form): "))
+  room = str(input("Input a room(name) in a house: "))
+  noun1 = str(input("Input noun: "))
+  noun2 = str(input("Input another noun: "))
+  noun3 = str(input("Input noun(in plural form): "))
+  dream = str(input("Input adjective: "))
+  noun4 = str(input("Input noun(in plural form): "))
+  number = int(input("Input a number: "))
+  measure = str(input("Measure of the time: "))
+  verb = str(input("Input a verb + ing: "))
+  adj_last = str(input("Input adjective: "))
+  noun5 = str(input("Input a noun: "))
+  print(f"Dear {persons_name},  I am writing to you from a {castles_name} castle in an enchanted forest. I found myself here one day after going for a ride on a {color_for_animal} {animal} in {place}. There are {adj1} {magical_creatures1} and {adj2} {magical_creatures2} here! In the {room} there is a pool full of {noun1}. I fall asleep each night on a {noun2} of {noun3} and dream of {noun4}. It feels as though I have lived here for {number} {measure}. I hope one day you can visit, although the only way to get here now is {verb} on a {adj_last} {noun5}!!")
+else:
+    print("Please, choose right number(1, 2 or 3)!")
+
